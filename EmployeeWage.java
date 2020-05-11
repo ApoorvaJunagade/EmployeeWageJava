@@ -39,20 +39,3 @@ static int salary;
 		}
 	}
 }
-/*i=$(( $i+1))
-done
-		System.out.println("Welcome to employee wage computation program!");
-                if ( random() == ispresent ){
-			if( random() == ispartTime){
-				salary=WagePerHour*partTime;
-				System.out.println("employee is part time wage for one day="+salary);
-			}
-			else{
-				salary=WagePerHour*FullDayHour;
-				System.out.println("employee is full time wage for one day="+salary);
-			}
-		}
-		else
- 			System.out.println("employee is absent");
-		}
-}*/
