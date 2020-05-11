@@ -15,44 +15,32 @@ return status;
 static int salary;
 
 	public static void main(String[] args){
-        	empcheck=(int)Random();     
-		switch(empcheck){
-		case 0:
-			emphrs=0;
-			System.out.println("the employee is absent wage is 0");
-		break;
-		case 1:
-			emphrs= emphrs+8;
-			salary=salary+emphrs*wagePerHour;
-			System.out.println("employee is full time wage="+salary);
+        	
+		for(int i=0; i<=20; i++){
+			empcheck=(int)Random();
+    			switch(empcheck){
+				case 0:
+					emphrs=0;
+					System.out.println("the employee is absent wage is 0");
+				break;
+				case 1:
+					emphrs= emphrs+8;
+					salary=salary+emphrs*wagePerHour;
+					System.out.println("employee is full time wage="+salary);
+					
+				break;
+				case 2:
+					emphrs=emphrs+4;
+					salary=salary+emphrs*wagePerHour;
+					System.out.println("employee is part time wage="+salary);
 			
-		break;
-		case 2:
-			emphrs=emphrs+4;
-			salary=salary+emphrs*wagePerHour;
-			System.out.println("employee is part time wage="+salary);
-			
-		break;
-		default:
-			System.out.println("salary cannot be calculated");
-		break;
+				break;
+				default:
+					System.out.println("salary cannot be calculated");
+				break;
+			}
 		}
+		
+		System.out.println("total salary="+salary);
 	}
 }
-/*i=$(( $i+1))
-done
-		System.out.println("Welcome to employee wage computation program!");
-                if ( random() == ispresent ){
-			if( random() == ispartTime){
-				salary=WagePerHour*partTime;
-				System.out.println("employee is part time wage for one day="+salary);
-			}
-			else{
-				salary=WagePerHour*FullDayHour;
-				System.out.println("employee is full time wage for one day="+salary);
-			}
-		}
-		else
- 			System.out.println("employee is absent");
-		}
-}*/
