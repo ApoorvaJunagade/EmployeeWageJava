@@ -1,3 +1,6 @@
+#folder to ignore
+classes/
+
 # Compiled class file
 *.class
 
